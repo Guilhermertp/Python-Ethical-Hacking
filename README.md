@@ -8,266 +8,93 @@ A hands-on collection of Python scripts and projects covering ethical hacking te
 
 ## 📚 Table of Contents
 
-1. [Initial Setup](#1-initial-setup)
-2. [Linux Commands](#2-linux-commands)
-3. [Writing a MAC Address Changer – Python Basics](#3-writing-a-mac-address-changer--python-basics)
-4. [MAC Changer – Algorithm Design](#4-mac-changer--algorithm-design)
-5. [Programming a Network Scanner](#5-programming-a-network-scanner)
-6. [Writing an ARP Spoofer](#6-writing-an-arp-spoofer)
-7. [Writing a Packet Sniffer](#7-writing-a-packet-sniffer)
-8. [Writing a DNS Spoofer](#8-writing-a-dns-spoofer)
-9. [Writing a File Interceptor](#9-writing-a-file-interceptor)
-10. [Writing a Code Injector](#10-writing-a-code-injector)
-11. [Bypassing HTTPS](#11-bypassing-https)
-12. [Writing an ARP Spoof Detector](#12-writing-an-arp-spoof-detector)
-13. [Writing Malware](#13-writing-malware)
-14. [Writing Malware – Keylogger](#14-writing-malware--keylogger)
-15. [Writing Malware – Backdoors](#15-writing-malware--backdoors)
-16. [Writing Malware – Packaging](#16-writing-malware--packaging)
-17. [Website / Web Application Hacking](#17-website--web-application-hacking)
-18. [Website Hacking – Writing a Crawler](#18-website-hacking--writing-a-crawler)
-19. [Writing a Program to Guess Login Information](#19-writing-a-program-to-guess-login-information)
-20. [Writing a Vulnerability Scanner](#20-writing-a-vulnerability-scanner)
+| # | Section | Script |
+|---|---------|--------|
+| 1 | [Initial Setup & Linux Commands](./Initial%20Setup%20%26%20Linux%20Commands/) | — |
+| 2 | [Writing a MAC Address Changer – Python Basics](./Writing%20a%20MAC%20Address%20Changer%20-%20Python%20Basics/mac_address_changer.py) | `mac_address_changer.py` |
+| 3 | [MAC Changer – Algorithm Design](./MAC%20Changer%20-%20Algorithm%20Design/mac_changer.py) | `mac_changer.py` |
+| 4 | [Programming a Network Scanner](./Programming%20a%20Network%20Scanner/network_scanner.py) | `network_scanner.py` |
+| 5 | [Writing an ARP Spoofer](./Writing%20an%20ARP%20Spoofer/arp_spoofer.py) | `arp_spoofer.py` |
+| 6 | [Writing a Packet Sniffer](./Writing%20a%20Packet%20Sniffer/packet_sniffer.py) | `packet_sniffer.py` |
+| 7 | [Writing a DNS Spoofer](./Writing%20a%20DNS%20Spoofer/dns_spoofer.py) | `dns_spoofer.py` |
+| 8 | [Writing a File Interceptor](./Writing%20a%20File%20Interceptor/file_interceptor.py) | `file_interceptor.py` |
+| 9 | [Writing a Code Injector](./Writing%20a%20Code%20Injector/code_injector.py) | `code_injector.py` |
+| 10 | [Bypassing HTTPS](./Bypassing%20HTTPS/bypass_https.py) | `bypass_https.py` |
+| 11 | [Writing an ARP Spoof Detector](./Writing%20an%20ARP%20Spoof%20Detector/arp_spoof_detector.py) | `arp_spoof_detector.py` |
+| 12 | [Writing Malware](./Writing%20Malware/malware.py) | `malware.py` |
+| 13 | [Writing Malware – Keylogger](./Writing%20Malware%20-%20Keylogger/keylogger.py) | `keylogger.py` |
+| 14 | [Writing Malware – Backdoors](./Writing%20Malware%20-%20Backdoors/backdoor.py) | `backdoor.py` |
+| 15 | [Writing Malware – Packaging](./Writing%20Malware%20-%20Packaging/malware_packaging.py) | `malware_packaging.py` |
+| 16 | [Website / Web Application Hacking](./Website%20-%20Web%20Application%20Hacking/web_app_hacking.py) | `web_app_hacking.py` |
+| 17 | [Website Hacking – Writing a Crawler](./Website%20Hacking%20-%20Writing%20a%20Crawler/web_crawler.py) | `web_crawler.py` |
+| 18 | [Writing a Program to Guess Login Information](./Writing%20a%20Program%20to%20Guess%20Login%20Information/login_guesser.py) | `login_guesser.py` |
+| 19 | [Writing a Vulnerability Scanner](./Writing%20a%20Vulnerability%20Scanner/vulnerability_scanner.py) | `vulnerability_scanner.py` |
 
 ---
 
-## 1. Initial Setup
+## 📁 Repository Structure
 
-> Setting up the environment, installing dependencies, and configuring your virtual machine or lab.
-
-```bash
-# Coming soon
 ```
-
-[🔝 Back to Top](#-table-of-contents)
-
----
-
-## 2. Linux Commands
-
-> Essential Linux commands used throughout this course for navigation, networking, and scripting.
-
-```bash
-# Coming soon
+ethical-hacking-python/
+│
+├── README.md
+│
+├── Initial Setup & Linux Commands/
+│
+├── Writing a MAC Address Changer - Python Basics/
+│   └── mac_address_changer.py
+│
+├── MAC Changer - Algorithm Design/
+│   └── mac_changer.py
+│
+├── Programming a Network Scanner/
+│   └── network_scanner.py
+│
+├── Writing an ARP Spoofer/
+│   └── arp_spoofer.py
+│
+├── Writing a Packet Sniffer/
+│   └── packet_sniffer.py
+│
+├── Writing a DNS Spoofer/
+│   └── dns_spoofer.py
+│
+├── Writing a File Interceptor/
+│   └── file_interceptor.py
+│
+├── Writing a Code Injector/
+│   └── code_injector.py
+│
+├── Bypassing HTTPS/
+│   └── bypass_https.py
+│
+├── Writing an ARP Spoof Detector/
+│   └── arp_spoof_detector.py
+│
+├── Writing Malware/
+│   └── malware.py
+│
+├── Writing Malware - Keylogger/
+│   └── keylogger.py
+│
+├── Writing Malware - Backdoors/
+│   └── backdoor.py
+│
+├── Writing Malware - Packaging/
+│   └── malware_packaging.py
+│
+├── Website - Web Application Hacking/
+│   └── web_app_hacking.py
+│
+├── Website Hacking - Writing a Crawler/
+│   └── web_crawler.py
+│
+├── Writing a Program to Guess Login Information/
+│   └── login_guesser.py
+│
+└── Writing a Vulnerability Scanner/
+    └── vulnerability_scanner.py
 ```
-
-[🔝 Back to Top](#-table-of-contents)
-
----
-
-## 3. Writing a MAC Address Changer – Python Basics
-
-> Introduction to Python scripting by building a tool to change your network interface's MAC address.
-
-```python
-# Coming soon
-```
-
-[🔝 Back to Top](#-table-of-contents)
-
----
-
-## 4. MAC Changer – Algorithm Design
-
-> Improving the MAC changer with better algorithm design, input validation, and argument parsing.
-
-```python
-# Coming soon
-```
-
-[🔝 Back to Top](#-table-of-contents)
-
----
-
-## 5. Programming a Network Scanner
-
-> Building a network scanner using ARP requests to discover devices on a local network.
-
-```python
-# Coming soon
-```
-
-[🔝 Back to Top](#-table-of-contents)
-
----
-
-## 6. Writing an ARP Spoofer
-
-> Crafting ARP packets to perform a man-in-the-middle attack on a local network.
-
-```python
-# Coming soon
-```
-
-[🔝 Back to Top](#-table-of-contents)
-
----
-
-## 7. Writing a Packet Sniffer
-
-> Intercepting and analysing network packets flowing through the network interface.
-
-```python
-# Coming soon
-```
-
-[🔝 Back to Top](#-table-of-contents)
-
----
-
-## 8. Writing a DNS Spoofer
-
-> Redirecting DNS responses to point domains to attacker-controlled IP addresses.
-
-```python
-# Coming soon
-```
-
-[🔝 Back to Top](#-table-of-contents)
-
----
-
-## 9. Writing a File Interceptor
-
-> Intercepting files transferred over the network and replacing or logging their contents.
-
-```python
-# Coming soon
-```
-
-[🔝 Back to Top](#-table-of-contents)
-
----
-
-## 10. Writing a Code Injector
-
-> Injecting malicious code into unencrypted HTTP responses in real time.
-
-```python
-# Coming soon
-```
-
-[🔝 Back to Top](#-table-of-contents)
-
----
-
-## 11. Bypassing HTTPS
-
-> Techniques to downgrade HTTPS connections and intercept encrypted traffic.
-
-```python
-# Coming soon
-```
-
-[🔝 Back to Top](#-table-of-contents)
-
----
-
-## 12. Writing an ARP Spoof Detector
-
-> Building a defensive tool to detect ARP spoofing attacks on the local network.
-
-```python
-# Coming soon
-```
-
-[🔝 Back to Top](#-table-of-contents)
-
----
-
-## 13. Writing Malware
-
-> Introduction to malware concepts and writing basic malicious scripts for analysis.
-
-```python
-# Coming soon
-```
-
-[🔝 Back to Top](#-table-of-contents)
-
----
-
-## 14. Writing Malware – Keylogger
-
-> Building a keylogger that records and exfiltrates keystrokes from a target machine.
-
-```python
-# Coming soon
-```
-
-[🔝 Back to Top](#-table-of-contents)
-
----
-
-## 15. Writing Malware – Backdoors
-
-> Creating backdoor programs that allow persistent remote access to a compromised system.
-
-```python
-# Coming soon
-```
-
-[🔝 Back to Top](#-table-of-contents)
-
----
-
-## 16. Writing Malware – Packaging
-
-> Packaging malware into executables and bypassing basic detection mechanisms.
-
-```python
-# Coming soon
-```
-
-[🔝 Back to Top](#-table-of-contents)
-
----
-
-## 17. Website / Web Application Hacking
-
-> Introduction to web application attack vectors and methodology.
-
-```python
-# Coming soon
-```
-
-[🔝 Back to Top](#-table-of-contents)
-
----
-
-## 18. Website Hacking – Writing a Crawler
-
-> Building a web crawler to map a target website's structure and discover hidden pages.
-
-```python
-# Coming soon
-```
-
-[🔝 Back to Top](#-table-of-contents)
-
----
-
-## 19. Writing a Program to Guess Login Information
-
-> Automating login attempts using wordlists to perform credential brute-forcing.
-
-```python
-# Coming soon
-```
-
-[🔝 Back to Top](#-table-of-contents)
-
----
-
-## 20. Writing a Vulnerability Scanner
-
-> Building a scanner to automatically identify common vulnerabilities in web applications.
-
-```python
-# Coming soon
-```
-
-[🔝 Back to Top](#-table-of-contents)
 
 ---
 
@@ -275,9 +102,7 @@ A hands-on collection of Python scripts and projects covering ethical hacking te
 
 - Python 3.x
 - Linux (Kali recommended) or a VM lab environment
-- Libraries: `scapy`, `requests`, `beautifulsoup4`, `pynput`, and others per section
-
-Install common dependencies:
+- Common libraries: `scapy`, `requests`, `beautifulsoup4`, `pynput`
 
 ```bash
 pip install scapy requests beautifulsoup4 pynput
