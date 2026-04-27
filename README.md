@@ -10,7 +10,7 @@ A hands-on collection of Python scripts and projects covering ethical hacking te
 
 | # | Section | Script |
 |---|---------|--------|
-| 1 | [Initial Setup & Linux Commands](https://github.com/Guilhermertp/Python-Ethical-Hacking/tree/main/Initial%20Setup%20%26%20Linux%20Commands) | — |
+| 1 | [Initial Setup & Linux Commands]([https://github.com/Guilhermertp/Python-Ethical-Hacking/tree/main/Initial%20Setup%20%26%20Linux%20Commands](https://github.com/Guilhermertp/Python-Ethical-Hacking/blob/main/Initial%20Setup%20%26%20Linux%20Commands/setup_linux_commands.md)) | — |
 | 2 | [Writing a MAC Address Changer – Python Basics](https://github.com/Guilhermertp/Python-Ethical-Hacking/blob/main/Writing%20a%20MAC%20Address%20Changer%20%E2%80%93%20Python%20Basics/mac_address_changer.py) | `mac_address_changer.py` |
 | 3 | [MAC Changer – Algorithm Design](https://github.com/Guilhermertp/Python-Ethical-Hacking/blob/main/MAC%20Changer%20%E2%80%93%20Algorithm%20Design/mac_changer.py) | `mac_changer.py` |
 | 4 | [Programming a Network Scanner](https://github.com/Guilhermertp/Python-Ethical-Hacking/blob/main/Programming%20a%20Network%20Scanner/network_scanner.py) | `network_scanner.py` |
