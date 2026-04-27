@@ -11,7 +11,7 @@ A hands-on collection of Python scripts and projects covering ethical hacking te
 | # | Section | Script |
 |---|---------|--------|
 | 1 | [Initial Setup & Linux Commands](./Initial%20Setup%20%26%20Linux%20Commands/) | — |
-| 2 | [Writing a MAC Address Changer – Python Basics](./Writing%20a%20MAC%20Address%20Changer%20-%20Python%20Basics/mac_address_changer.py) | `mac_address_changer.py` |
+| 2 | [Writing a MAC Address Changer – Python Basics](Writing a MAC Address Changer – Python Basics/mac_address_changer.py) | `mac_address_changer.py` |
 | 3 | [MAC Changer – Algorithm Design](./MAC%20Changer%20-%20Algorithm%20Design/mac_changer.py) | `mac_changer.py` |
 | 4 | [Programming a Network Scanner](./Programming%20a%20Network%20Scanner/network_scanner.py) | `network_scanner.py` |
 | 5 | [Writing an ARP Spoofer](./Writing%20an%20ARP%20Spoofer/arp_spoofer.py) | `arp_spoofer.py` |
